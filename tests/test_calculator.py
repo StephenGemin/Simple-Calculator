@@ -3,7 +3,7 @@ Unit tests for calculator library
 """
 import pytest
 
-import calculator
+from calculator import calculator
 
 
 class TestCalculator:
@@ -62,4 +62,3 @@ class TestCalculator:
 
     def test_divide_yields_repeating_decimal(self):
         assert 1.6/3 == calculator.divide(1.6, 3)
-
