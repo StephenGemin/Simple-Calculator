@@ -2,7 +2,7 @@
 Unit tests for calculator library
 """
 
-import calculator
+from calculator import calculator
 
 
 class TestCalculator:
