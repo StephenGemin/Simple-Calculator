@@ -3,9 +3,17 @@ Calculator library containing basic math operations.
 """
 
 
-def add(first_term, second_term):
-    return first_term + second_term
+def add(term1: float, term2: float) -> float:
+    return term1 + term2
 
 
-def subtract(first_term, second_term):
-    return first_term - second_term
+def subtract(term1: float, term2: float) -> float:
+    return term1 - term2
+
+
+def multiply(term1: float, term2: float) -> float:
+    return term1 * term2
+
+
+def divide(numerator: float, denom: float) -> float:
+    return numerator/denom
